@@ -31,7 +31,7 @@ public class RNShadowRadialTextGradient extends RNShadowTextGradient {
     markUpdated();
   }
 
-  @Override
+  
   protected RNSetGradientSpanOperation createSpan(
     SpannableStringBuilder builder,
     int start,

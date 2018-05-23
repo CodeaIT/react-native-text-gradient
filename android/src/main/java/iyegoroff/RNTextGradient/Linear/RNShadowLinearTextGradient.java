@@ -43,7 +43,7 @@ public class RNShadowLinearTextGradient extends RNShadowTextGradient {
     }
   }
 
-  @Override
+  
   protected RNSetGradientSpanOperation createSpan(
     SpannableStringBuilder builder,
     int start,

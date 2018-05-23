@@ -61,7 +61,7 @@ public abstract class RNShadowTextGradient extends ReactTextShadowNode {
     markUpdated();
   }
 
-  @Override
+  
   public boolean dispatchUpdates(
     float absoluteX,
     float absoluteY,
@@ -82,7 +82,7 @@ public abstract class RNShadowTextGradient extends ReactTextShadowNode {
     return layoutHasChanged;
   }
 
-  @Override
+  
   public void onCollectExtraUpdates(UIViewOperationQueue uiViewOperationQueue) {
     updateGradient();
 

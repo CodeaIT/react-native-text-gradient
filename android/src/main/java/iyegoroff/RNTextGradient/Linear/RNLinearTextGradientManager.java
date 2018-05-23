@@ -13,17 +13,17 @@ public class RNLinearTextGradientManager extends RNTextGradientManager {
     @VisibleForTesting
     public static final String REACT_CLASS = "RNLinearTextGradient";
 
-    @Override
+    
     public String getName() {
         return REACT_CLASS;
     }
 
-    @Override
+    
     public RNShadowTextGradient createShadowNodeInstance() {
         return new RNShadowLinearTextGradient();
     }
 
-    @Override
+    
     public Class<? extends RNShadowTextGradient> getShadowNodeClass() {
         return RNShadowLinearTextGradient.class;
     }

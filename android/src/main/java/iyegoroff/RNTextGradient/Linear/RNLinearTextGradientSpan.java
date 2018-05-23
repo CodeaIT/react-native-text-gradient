@@ -53,7 +53,7 @@ public class RNLinearTextGradientSpan extends CharacterStyle implements UpdateAp
     mText = text;
   }
 
-  @Override
+  
   public void updateDrawState(TextPaint paint) {
     if (mStart != null &&
       mEnd != null &&

@@ -16,12 +16,10 @@ import iyegoroff.RNTextGradient.Linear.RNVirtualLinearTextGradientManager;
 import iyegoroff.RNTextGradient.Radial.RNVirtualRadialTextGradientManager;
 
 public class RNTextGradientPackage implements ReactPackage {
-    @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
       return Collections.emptyList();
     }
 
-    @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
       return Arrays.<ViewManager>asList(
         new RNLinearTextGradientManager(),

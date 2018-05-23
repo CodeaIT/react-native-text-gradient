@@ -8,12 +8,12 @@ import android.view.View;
 
 public abstract class RNVirtualTextGradientManager<T extends RNShadowTextGradient> extends BaseViewManager<View, T> {
 
-  @Override
+  
   public RNTextGradient createViewInstance(ThemedReactContext context) {
     throw new IllegalStateException("RNVirtualTextGradientManager doesn't have a native view");
   }
 
-  @Override
+  
   public void updateExtraData(View view, Object extraData) {
   }
 }

@@ -16,17 +16,17 @@ public class RNVirtualLinearTextGradientManager extends RNVirtualTextGradientMan
   @VisibleForTesting
   public static final String REACT_CLASS = "RNVirtualLinearTextGradient";
 
-  @Override
+  
   public String getName() {
     return REACT_CLASS;
   }
 
-  @Override
+  
   public RNVirtualShadowLinearTextGradient createShadowNodeInstance() {  
     return new RNVirtualShadowLinearTextGradient();
   }
 
-  @Override
+  
   public Class<? extends RNVirtualShadowLinearTextGradient> getShadowNodeClass() {
     return RNVirtualShadowLinearTextGradient.class;
   }

@@ -9,12 +9,12 @@ public abstract class RNTextGradientManager extends ReactTextAnchorViewManager<R
 
   private ReactTextViewManager mManager = new ReactTextViewManager();
 
-  @Override
+  
   public RNTextGradient createViewInstance(ThemedReactContext context) {
     return new RNTextGradient(context);
   }
 
-  @Override
+  
   public void updateExtraData(RNTextGradient view, Object extraData) {
     mManager.updateExtraData(view, extraData);
   }
